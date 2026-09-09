@@ -1,0 +1,6 @@
+{
+  "name": "TaskFlow",
+  "description": "A production-ready full-stack task management application with secure auth and PostgreSQL.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

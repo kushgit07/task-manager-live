@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    @apply bg-slate-50 text-slate-900 selection:bg-slate-200;
+  }
+}
+
+@layer utilities {
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .hide-arrows::-webkit-outer-spin-button,
+  .hide-arrows::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .hide-arrows {
+    -moz-appearance: textfield;
+  }
+}
